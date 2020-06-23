@@ -11,7 +11,7 @@ The used dataset are founded on Kaggle. You can find it here:
 
 The first dataset contains two folders “yes” and “no”. The no folder contains 98 brain MRI images that are non-tumorous and the yes folder contains 155 brain MRI images that are tumorous.
 
-The second dataset contains four folders “glioma_tumor”, “meningioma_tumor”, “pituitary_tumor” and “no_tumor”. The data was primary divided in test and training folder, but here there are merged together. Images in the glioma, meningioma and pituitary folders represent different types of brain tumors. In this implementation no classification between these different types is performed. In the glioma folder are 926, in meningioma 937, in pituitary 901 and in the no folder 500 brain MRI images. 
+The second dataset contains four folders: “glioma_tumor”, “meningioma_tumor”, “pituitary_tumor” and “no_tumor”. The data was primary divided in test and training folder, but here they are merged together. Images in the glioma, meningioma and pituitary folders represent different types of brain tumors. In this implementation no classification between these different types is performed. In the glioma folder are 926, in meningioma 937, in pituitary 901 and in the no folder 500 brain MRI images. 
 
 **Total dataset contains therefore:**
 
@@ -20,6 +20,15 @@ The second dataset contains four folders “glioma_tumor”, “meningioma_tumor
 **2919** brain MRI images with brain tumor
 
 ## Data Preprocessing:
+
+1. Crop images:
+All images will be cropped, so that the non-zero regions will be removed and only the part of the brain will remain.
+
+2. Resize images:
+As each image have a different pixel size every image needs to be resized to a common shape of (250,250,3). This is necessary for the neuronal network. 
+
+3. Normalization:
+Normalization of each image is applied to scale the pixel values to the range from 0 to 1.
 
 
 ## Neuronal Network Architectur:
