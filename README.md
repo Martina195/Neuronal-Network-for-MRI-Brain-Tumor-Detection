@@ -52,13 +52,9 @@ A Neuronal Network is designed by using Tensorflow and Keras. Following architec
 The training of the Neuronal Network with given architecture delivers following accuracies:
 
 Train Accuracy | Test Accuracy
-------------------------------
-81.58 % | 85.87 %
-
-Train Accuracy | Test Accuracy
 -------------- | -------------
 81.58 % | 85.87 %
-Content in the first column | Content in the second column
+
 
 
 
