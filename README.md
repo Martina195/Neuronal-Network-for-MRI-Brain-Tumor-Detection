@@ -16,9 +16,10 @@ The second dataset contains four folders “glioma_tumor”, “meningioma_tumor
 **Total dataset contains therefore:**
 
 **598** brain MRI images without brain tumor
+
 **2919** brain MRI images with brain tumor
 
-## Preprocessing:
+## Data Preprocessing:
 
 
 ## Neuronal Network Architectur:
