@@ -55,4 +55,11 @@ Train Accuracy | Test Accuracy
 ------------------------------
 81.58 % | 85.87 %
 
+Train Accuracy | Test Accuracy
+-------------- | -------------
+81.58 % | 85.87 %
+Content in the first column | Content in the second column
+
+
+
 There are ... out of ... correct predicted brain MRI images. 
