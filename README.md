@@ -15,27 +15,26 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 **Total dataset contains therefore:**
 
-**598** brain MRI images without brain tumor
-
+**598** brain MRI images without brain tumor<br />
 **2919** brain MRI images with brain tumor
 
 ## Data Preprocessing:
 
-1. Crop images:
+1. Crop images:<br />
 All images will be cropped, so that the non-zero regions will be removed and only the part of the brain will remain.
 
-2. Resize images:
+2. Resize images:<br />
 As each image have a different pixel size every image needs to be resized to a common shape of (250,250,3). This is necessary for the neuronal network. 
 
-3. Normalization:
+3. Normalization:<br />
 Normalization of each image is applied to scale the pixel values to the range from 0 to 1.
 
-4. Generate train and test data
+4. Generate train and test data<br />
 The whole dataset is splitted into train data and test data:
 - 70 % of dataset for train data
 - 30 % of dataset for test data
 
-5. Define softmax
+5. Define softmax:<br />
 
 
 
