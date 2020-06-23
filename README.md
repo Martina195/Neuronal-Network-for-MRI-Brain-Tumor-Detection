@@ -38,6 +38,6 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 A Neuronal Network is designed by using Tensorflow and Keras. Following architecture is used:
 
-![Alt text](relative/path/to/img.jpg?raw=true "Architektur")
+![GitHub Architektur](/images/Architektur.jpg)
 
 
