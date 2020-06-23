@@ -26,8 +26,7 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 3. Normalization:<br />Normalization of each image is applied to scale the pixel values to the range from 0 to 1.
 
-4. Generate train and test data<br />The whole dataset is splitted into train data and test data:
-- 70 % of dataset for train data
+4. Generate train and test data<br />The whole dataset is splitted into train data and test data:<br />- 70 % of dataset for train data
 - 30 % of dataset for test data
 
 5. Define softmax:<br />BLA.....
