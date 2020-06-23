@@ -3,6 +3,7 @@
 The medical diagnosis brain tumor is received with the magnetic resonance imaging technique. Magnetic fields and radio waves are used to generate images of the texture of the brain. Thereby morbid changes in the brain could be detected. 
 Here a neuronal network is implemented for the brain tumor detection of such MRI images. 
 
+
 ## Datasets:
 
 The used datasets are founded on Kaggle. You can find it here:
@@ -16,6 +17,7 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 **Total dataset contains therefore:**<br />
 **598** brain MRI images without brain tumor<br />
 **2919** brain MRI images with brain tumor
+
 
 ## Data Preprocessing:
 
@@ -34,7 +36,9 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 A neuronal network is designed by using Tensorflow and Keras. Each image has an input shape of (250,250,3). For training the neuronal network all train images will be used. The architecture of the neuronal network is the following:
 
-![GitHub Architektur](Neuronal Network Architecture.jpg)
+
+![GitHub Neuronal Network Architecture](Neuronal Network Architecture.jpg)
+
 
 **Layer Description:**
 
