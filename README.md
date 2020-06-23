@@ -30,5 +30,18 @@ As each image have a different pixel size every image needs to be resized to a c
 3. Normalization:
 Normalization of each image is applied to scale the pixel values to the range from 0 to 1.
 
+4. Generate train and test data
+The whole dataset is splitted into train data and test data:
+- 70 % of dataset for train data
+- 30 % of dataset for test data
 
-## Neuronal Network Architectur:
+5. Define softmax
+
+
+
+## Neuronal Network Architecture:
+
+A Neuronal Network is designed by using Tensorflow and Keras. Following architecture is used:
+
+![Alt text](relative/path/to/img.jpg?raw=true "Architektur")
+
