@@ -30,32 +30,41 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 - 70 % of dataset for train data
 - 30 % of dataset for test data
 
-5. Define softmax:<br />BLA.....
-
-
 
 ## Neuronal Network Architecture:
 
-A Neuronal Network is designed by using Tensorflow and Keras. Following architecture is used:
+A neuronal network is designed by using Tensorflow and Keras. Each image has an input shape of (250,250,3). For training the neuronal network all train images will be used. The architecture of the neuronal network is the following:
 
 ![GitHub Architektur](Architektur.jpg)
 
 **Layer Description:**
 
-1. ....
-2. ....
-...
+
+
+1. ZeroPadding Layer:<br />The ZeroPadding Layer is able to add rows and columns of zeros around the image to cover also the borders of the image to reach better accuracy. Here padding is set to padding=(5,5) to add 5 rows and columns around the image.
+
+2. Dropout Layer:<br />The Dropout Layer is able to prevent overfitting by randomly dropping out nodes during training. Here the frequency rate is set to rate=0.2 to remove 0.2 % of neurons out of the analysis.
+
+3. Convolutional Layer:<br />The Convolutional Layer multiplies the image with different filters. Here 32 filters with the kernel_size=(10,10) will be used for convolution. The filter is moving with stride size (1,1) over the image and using the ReLU activation function.
+
+4. MaxPooling Layer:<br />The MaxPooling Layer downsamples the output of the Convolutional Layer by taking the maximum value of the defined pool size. Here the pool_size is set to (5,5).
+
+5. The steps 2, 3, 4, 2 will repeated. 
+
+6. Flatten Layer:<br />The Flatten Layer reshapes the output into a one-dimensional vector.
+
+7. Dense Layer 1:<br />The first Dense Layer calculates the ReLU activation.
+
+8. Dense Layer 2:<br />The second Dense Layer calculate the softmax activation.
 
 
 ## Results:
 
-The training of the Neuronal Network with given architecture delivers following accuracies:
+The training of the neuronal network with given architecture delivers following accuracies:
 
 Train Accuracy | Test Accuracy
 -------------- | -------------
-81.58 % | 85.87 %
+81.63 % | 86.17 %
 
 
-
-
-There are ... out of ... correct predicted brain MRI images. 
+The prediction delivers 910 out of 1056 correct predicted brain MRI images. 
