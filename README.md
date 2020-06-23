@@ -39,7 +39,6 @@ A neuronal network is designed by using Tensorflow and Keras. Each image has an 
 **Layer Description:**
 
 
-
 1. ZeroPadding Layer:<br />The ZeroPadding Layer is able to add rows and columns of zeros around the image to cover also the borders of the image to reach better accuracy. Here padding is set to padding=(5,5) to add 5 rows and columns around the image.
 
 2. Dropout Layer:<br />The Dropout Layer is able to prevent overfitting by randomly dropping out nodes during training. Here the frequency rate is set to rate=0.2 to remove 0.2 % of neurons out of the analysis.
