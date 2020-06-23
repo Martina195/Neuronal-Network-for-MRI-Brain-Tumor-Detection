@@ -54,7 +54,7 @@ A neuronal network is designed by using Tensorflow and Keras. Each image has an 
 
 7. Dense Layer 1:<br />The first Dense Layer calculates the ReLU activation.
 
-8. Dense Layer 2:<br />The second Dense Layer calculate the softmax activation.
+8. Dense Layer 2:<br />The second Dense Layer calculates the softmax activation.
 
 
 ## Results:
@@ -66,4 +66,4 @@ Train Accuracy | Test Accuracy
 81.63 % | 86.17 %
 
 
-The prediction delivers 910 out of 1056 correct predicted brain MRI images. 
+Therefore the prediction delivers 910 out of 1056 correct predicted brain MRI images. 
