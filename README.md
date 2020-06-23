@@ -34,7 +34,7 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 A neuronal network is designed by using Tensorflow and Keras. Each image has an input shape of (250,250,3). For training the neuronal network all train images will be used. The architecture of the neuronal network is the following:
 
-![GitHub Architektur](Architektur.jpg)
+![GitHub Architektur](Neuronal Network Architecture.jpg)
 
 **Layer Description:**
 
