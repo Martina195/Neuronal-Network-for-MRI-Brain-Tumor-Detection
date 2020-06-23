@@ -40,3 +40,4 @@ A Neuronal Network is designed by using Tensorflow and Keras. Following architec
 
 ![Alt text](relative/path/to/img.jpg?raw=true "Architektur")
 
+
