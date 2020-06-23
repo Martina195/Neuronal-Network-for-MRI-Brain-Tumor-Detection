@@ -30,7 +30,7 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 - 70 % of dataset for train data
 - 30 % of dataset for test data
 
-5. Define softmax:<br />
+5. Define softmax:<br />BLA.....
 
 
 
@@ -40,4 +40,19 @@ A Neuronal Network is designed by using Tensorflow and Keras. Following architec
 
 ![GitHub Architektur](Architektur.jpg)
 
+**Layer Description:**
 
+1. ....
+2. ....
+...
+
+
+## Results:
+
+The training of the Neuronal Network with given architecture delivers following accuracies:
+
+Train Accuracy | Test Accuracy
+------------------------------
+81.58 % | 85.87 %
+
+There are ... out of ... correct predicted brain MRI images. 
