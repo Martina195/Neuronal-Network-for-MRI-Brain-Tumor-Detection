@@ -21,7 +21,7 @@ The second dataset contains four folders: “glioma_tumor”, “meningioma_tumo
 
 ## Data Preprocessing:
 
-1. Crop images:<br />All images will be cropped, so that the non-zero regions will be removed and only the part of the brain will remain.
+1. Crop images:<br />All images will be cropped, so that the black regions around the brain will be removed because they dont provied necessray informations.
 
 2. Resize images:<br />As each image have a different pixel size every image needs to be resized to a common shape of (250,250,3). This is necessary for the neuronal network. 
 
